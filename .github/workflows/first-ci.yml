@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name : Checkout the repo
-        uses: actions/checkout@6
+        uses: actions/checkout@v6
       - name: welcom massage
         run: echo Hello world
       - name: list files
