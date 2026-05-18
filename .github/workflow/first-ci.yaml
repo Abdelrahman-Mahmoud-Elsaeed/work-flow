@@ -2,7 +2,7 @@ name : first-ci
 on: push
 jobs: 
   unit-test:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - name "welcom massage"
+      - name: welcom massage
         run: echo Hello world
