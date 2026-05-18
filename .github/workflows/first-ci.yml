@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: welcom massage
         run: echo Hello world
+      - name: list files
+        run : ls -all
+      - name: Read Content of readme
+        run: cat README.md
